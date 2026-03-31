@@ -1,0 +1,18 @@
+[project]
+name = "cello-project"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Antonio Gabriel",email = "antoniogabtk@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "cello_project", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
